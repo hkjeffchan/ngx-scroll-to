@@ -109,10 +109,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ngx-scroll-to-demo:build:production"
+              "buildTarget": "ngx-scroll-to-demo:build:production"
             },
             "development": {
-              "browserTarget": "ngx-scroll-to-demo:build:development"
+              "buildTarget": "ngx-scroll-to-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -120,7 +120,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-scroll-to-demo:build"
+            "buildTarget": "ngx-scroll-to-demo:build"
           }
         },
         "test": {
